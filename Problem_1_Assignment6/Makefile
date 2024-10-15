@@ -24,4 +24,4 @@ test: ExamResultsTest
 
 # Target to clean up compiled files
 clean:
-   rm -f ExamResults.o ExamResultsTest.o ExamResults.exe ExamResultsTest.exe
+	rm -f ExamResults.o ExamResultsTest.o ExamResults.exe ExamResultsTest.exe
