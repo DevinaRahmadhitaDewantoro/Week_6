@@ -10,20 +10,20 @@ struct StudentData {
 
 
 StudentData theStudent[5] = {
-    {542345, 90, 80, (90 + 80) / 2.0},
-    {547891, 85, 90, (85 + 90) / 2.0},
-    {547892, 70, 75, (70 + 75) / 2.0},
-    {547893, 60, 65, (60 + 65) / 2.0},
-    {547894, 95, 85, (95 + 85) / 2.0}
+    {542345, 90, 80, (90 + 80) / 2.0}, // Student 1 data
+    {547891, 85, 90, (85 + 90) / 2.0}, // Student 2 data
+    {547892, 70, 75, (70 + 75) / 2.0}, // Student 3 data
+    {547893, 60, 65, (60 + 65) / 2.0}, // Student 4 data
+    {547894, 95, 85, (95 + 85) / 2.0}  // Student 5 data
 };
 
 // Expected values for comparison
 StudentData expectedStudents[5] = {
-    {542345, 90, 80, 85.0},    
-    {547891, 85, 90, 87.5},    
-    {547892, 70, 75, 72.5},    
-    {547893, 60, 65, 62.5},    
-    {547894, 95, 85, 90.0}     
+    {542345, 90, 80, 85.0},    // Student 1 expected data
+    {547891, 85, 90, 87.5},    // Student 2 expected data
+    {547892, 70, 75, 72.5},    // Student 3 expected data
+    {547893, 60, 65, 62.5},    // Student 4 expected data
+    {547894, 95, 85, 90.0}     // Student 5 expected data
 };
 
 int main() {
