@@ -18,11 +18,11 @@ int main() {
 
     for(int i = 0; i < n; i++){
         cout << "\nStudent " << i+1 << ":\n";
-        cout << "NIM: ";
+        cout << "enter the student's NIM: ";
         cin >> theStudent[i].NIMnum;
-        cout << "UTS Score: ";
+        cout << "enter the student's UTS Score: ";
         cin >> theStudent[i].UtsVal;
-        cout << "UAS Score: ";
+        cout << "enter the student's UAS Score: ";
         cin >> theStudent[i].UasVal;
         
         
@@ -30,13 +30,11 @@ int main() {
     }
 
     
-    cout << "\nStudent Data:\n";
+    cout << "------------------------";
     
         for(int i = 0; i < n; i++){
         cout << "\nStudent " << i+1 << ":\n" << endl;
         cout << "NIM: " << theStudent[i].NIMnum << endl;
-        cout << "UTS Score: " << theStudent[i].UtsVal << endl;
-        cout << "UAS Score: " << theStudent[i].UasVal << endl;
         cout << "Average Score: " << theStudent[i].avg << endl;
         }
 

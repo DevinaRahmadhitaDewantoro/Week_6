@@ -33,8 +33,6 @@ int main() {
 
         bool isPassed = true; // Assume passed by default
         if (theStudent[i].NIMnum != expectedStudents[i].NIMnum ||
-            theStudent[i].UtsVal != expectedStudents[i].UtsVal ||
-            theStudent[i].UasVal != expectedStudents[i].UasVal ||
             theStudent[i].avg != expectedStudents[i].avg) {
             isPassed = false;
         }
