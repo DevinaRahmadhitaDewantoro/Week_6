@@ -41,9 +41,9 @@ int main() {
         // Display test result based on the check above
         cout << "Test Result: ";
         if (isPassed) {
-            cout << "Passed" << endl;
+            cout << "Passed" << endl; // Display if the student passed
         } else {
-            cout << "Failed" << endl;
+            cout << "Failed" << endl; // Display if the student failed
         }
     }
 
