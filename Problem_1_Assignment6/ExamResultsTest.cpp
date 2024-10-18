@@ -29,15 +29,16 @@ StudentData expectedStudents[5] = {
 int main() {
     cout << "\nStudent Data:\n";
     for (int i = 0; i < 5; i++) {
-        cout << "\nStudent " << i + 1 << ":\n";
+        cout << "\nStudent " << i + 1 << ":\n"; // Display student number
 
         bool isPassed = true; // Assume passed by default
+        // Check if actual data matches expected NIM or average
         if (theStudent[i].NIMnum != expectedStudents[i].NIMnum ||
             theStudent[i].avg != expectedStudents[i].avg) {
-            isPassed = false;
+            isPassed = false; // If any values don’t match, set to failed
         }
 
-        
+        // Display test result based on the check above
         cout << "Test Result: ";
         if (isPassed) {
             cout << "Passed" << endl;
@@ -46,5 +47,5 @@ int main() {
         }
     }
 
-    return 0;
+    return 0; // End of the program
 }
