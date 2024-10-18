@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 struct StudentData {
@@ -9,13 +8,13 @@ struct StudentData {
     float avg;
 };
 
+StudentData theStudent[50];
+
 int main() {
     int n;
     cout << "Enter the quantity of students: ";
     cin >> n;
 
-    // Declare a dynamic array (vector) to store data for any number of students
-    vector<StudentData> theStudent(n);
 
     for(int i = 0; i < n; i++){
         cout << "\nStudent " << i+1 << ":\n";

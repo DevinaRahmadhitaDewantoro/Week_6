@@ -8,7 +8,7 @@ struct StudentData {
     float avg;     
 };
 
-
+// Hardcoded student data with their scores and average
 StudentData theStudent[5] = {
     {542345, 90, 80, (90 + 80) / 2.0}, // Student 1 data
     {547891, 85, 90, (85 + 90) / 2.0}, // Student 2 data
@@ -17,7 +17,7 @@ StudentData theStudent[5] = {
     {547894, 95, 85, (95 + 85) / 2.0}  // Student 5 data
 };
 
-// Expected values for comparison
+// Hardcoded expected student data to compare with actual student data
 StudentData expectedStudents[5] = {
     {542345, 90, 80, 85.0},    // Student 1 expected data
     {547891, 85, 90, 87.5},    // Student 2 expected data
