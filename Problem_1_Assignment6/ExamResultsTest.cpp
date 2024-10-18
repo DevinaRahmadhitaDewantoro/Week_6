@@ -2,10 +2,10 @@
 using namespace std;
 
 struct StudentData {
-    double NIMnum;  
-    double UtsVal;  
-    double UasVal;  
-    double avg;     
+    int NIMnum;  
+    float UtsVal;  
+    float UasVal;  
+    float avg;     
 };
 
 

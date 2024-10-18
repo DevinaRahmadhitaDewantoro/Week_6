@@ -5,7 +5,7 @@ using namespace std;
 
 
 struct StudentData {
-    float NIMnum;
+    int NIMnum;
     float UtsVal;
     float UasVal;
     float avg;
